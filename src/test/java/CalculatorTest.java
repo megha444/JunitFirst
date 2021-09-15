@@ -18,6 +18,6 @@ class CalculatorTest {
                 () -> assertEquals(-4, Calculator.multiply(2, -2)),
                 () -> assertEquals(4, Calculator.multiply(-2, -2)),
                 () -> assertEquals(0, Calculator.multiply(1, 0)),
-                () -> assertEquals(12, Calculator.multiply(1,2,6)));
+                () -> assertEquals(12, Calculator.multiply(1, 2, 6)));
     }
 }
