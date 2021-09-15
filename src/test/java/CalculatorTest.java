@@ -20,4 +20,10 @@ class CalculatorTest {
                 () -> assertEquals(0, Calculator.multiply(1, 0)),
                 () -> assertEquals(12, Calculator.multiply(1, 2, 6)));
     }
+
+    @Test
+    @DisplayName("Checking TDD")
+    void tddCheck(){
+        assertEquals(4,Calculator.add(1));
+    }
 }
